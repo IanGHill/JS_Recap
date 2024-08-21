@@ -1,3 +1,5 @@
+//Note that Syntax errors cannot be caught by a try catch block
+
 try{
     throw new ReferenceError();
 } catch(err){
@@ -47,5 +49,9 @@ letterFinder(2,3)
 letterFinder('cat','c')
 
 //Task 3
-throw new Error()
-console.log("Hello")
+console.log("Task 3")
+// throw new Error()
+// console.log("Hello")
+var str = "Hello";
+str.match("jello");
+console.log("End")
