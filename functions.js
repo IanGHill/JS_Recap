@@ -37,3 +37,13 @@ function letterFinder(word, match){
     }
 }
 letterFinder('test', 't')
+
+// There are 3 ways to define a function in JS:
+// 1. Named Function declarations (can be hoisted or used, before htey are declared)
+// function functionName () {}
+// 2. Anonymous functions
+// var functionName = function () {}
+// 3. Arrow functions
+// var functionName = () => {}
+// Arrow functions can implicitly return an expression by 
+// leaving out the function body {} and the return keyword. As long as the => points to a single expression.

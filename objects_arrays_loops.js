@@ -91,6 +91,7 @@ console.log(favCar);
 var car = {};
 car.mileage = 98765;
 car.color = "red";
+car.doors = 4
 console.log(car);
 car.turnTheKey = function() {
     console.log("The engine is running")
@@ -98,6 +99,7 @@ car.turnTheKey = function() {
 car.lightsOn = function() {
     console.log("The lights are on.")
 }
+delete car.doors
 console.log(car);
 car.turnTheKey();
 car.lightsOn()
