@@ -45,3 +45,7 @@ function letterFinder(word, match) {
 }
 letterFinder(2,3)
 letterFinder('cat','c')
+
+//Task 3
+throw new Error()
+console.log("Hello")
