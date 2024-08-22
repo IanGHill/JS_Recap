@@ -18,8 +18,27 @@ console.log("ho-ho-ho".lastIndexOf('o')); // 7
 console.log("ho-ho-ho".lastIndexOf('-')); // 5
 
 // split 
- console.log("ho-ho-ho".split("-")); // ['ho', 'ho', 'ho']
+console.log("ho-ho-ho".split("-")); // ['ho', 'ho', 'ho']
 
- //change case
- console.log(greet.toUpperCase()); // "Hello, "
- console.log(greet.toLowerCase()); // "hello, "
+//change case
+console.log(greet.toUpperCase()); // "Hello, "
+console.log(greet.toLowerCase()); // "hello, "
+
+//String interpolation:
+let greet1 = "Hello";
+let place1 = "World";
+console.log(`${greet1} ${place1} !`) //display both variables using template literals
+
+//Multiline strings avilable from ES6 with template literals
+let cool = 'cool'
+let multiline = `
+    This is
+    a 
+    multiline 
+    string. 
+    That 
+    is 
+    so
+    ${cool}!
+`;
+console.log(multiline)
